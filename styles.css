@@ -103,6 +103,10 @@ START STYLING
 
 .movie:hover .movie_content_wrapper {
   transform: scale(1);
+  z-index: 3;
+}
+.movie:hover .movie_img {
+  z-index: 4;
 }
 
 .movie_name {
